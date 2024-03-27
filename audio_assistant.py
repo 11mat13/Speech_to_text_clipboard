@@ -71,7 +71,7 @@ wf.close()
 
 print('Recording stopped')
 
-client = OpenAI(api_key=...)
+client = OpenAI(api_key=...) ## provide your OpenAI API key!
 
 audio_file = open("output.wav", "rb")
 transcript = client.audio.transcriptions.create(
